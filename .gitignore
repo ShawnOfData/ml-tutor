@@ -1,0 +1,81 @@
+# ============================================
+# ml-tutor — .gitignore
+# ============================================
+
+# ---- Runtime data (never commit user data or knowledge bases) ----
+data/
+data/user/
+data/knowledge_bases/
+data/workspace/
+/multi-user/
+run_code_workspace/
+
+# ---- Python ----
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.so
+.env
+*.env
+*.env.local
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+dist/
+build/
+*.egg
+
+# ---- Node / Frontend ----
+node_modules/
+**/node_modules/
+.next/
+web/.next/
+out/
+web/out/
+dist/
+web/dist/
+*.tsbuildinfo
+
+# ---- Logs ----
+*.log
+ml_tutor.log
+ml_tutor.err
+
+# ---- IDE / OS ----
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- Temporary ----
+*.tmp
+*.swp
+*.bak
+
+# ---- Test / Coverage ----
+htmlcov/
+nosetests.xml
+coverage.xml
+.playwright-cli/
+
+# ---- Database ----
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Compressed / Large ----
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ---- Reports (keep if you want; uncomment to include) ----
+# reports/
