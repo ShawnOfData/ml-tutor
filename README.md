@@ -131,9 +131,3 @@ ml_tutor run chat "What is gradient descent? cite the formula" -t rag --kb my-ml
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
-
----
-
-> *This repository is maintained by ShawnOfData. For development rules,
-> see [docs/AI_DEV_CHARTER.md](./docs/AI_DEV_CHARTER.md).*
